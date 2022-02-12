@@ -1,0 +1,12 @@
+#include<stdio.h>
+int a,b,sum,mul;
+int main()
+{
+    printf("Nhap 2 so: ");
+    scanf("%d%d",&a,&b);
+    sum=a+b;
+    mul=a*b;
+    printf("%d",sum);
+    printf("\n%d",mul);
+    return 0;
+}
